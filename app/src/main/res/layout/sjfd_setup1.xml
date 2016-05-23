@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.zhengshujuan.securitymanager.ui.SJFDActivity">
+
+    <TextView
+        style="@style/TextBarStyle"
+        android:text="手机防盗界面设置1" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="锁定SIM卡"
+        android:textSize="24dp"
+        android:drawableLeft="@android:drawable/btn_star_big_on"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:text="绑定手机号"
+        android:textSize="24dp"
+        android:drawableLeft="@android:drawable/btn_star_big_on"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:text="系统全球定位"
+        android:textSize="24dp"
+        android:drawableLeft="@android:drawable/btn_star_big_on"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:text="远程清除数据"
+        android:textSize="24dp"
+        android:drawableLeft="@android:drawable/btn_star_big_on"
+        />
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="上一步"/>
+        <Button
+            android:onClick="next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:text="下一步"/>
+    </RelativeLayout>
+</LinearLayout>
