@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SecurityManager</string>
+<string name="lead_leadimage_description">Guide page
+image</string>
+    <string name="lead_skiptext">skip</string>
+    <string name="leadtext_description1">Small icon1</string>
+    <string name="leadtext_description2">Small icon2</string>
+    <string name="leadtext_description3">Small icon3</string>
+</resources>

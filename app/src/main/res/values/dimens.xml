@@ -1,0 +1,16 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">86dp</dimen>
+    <dimen name="activity_vertical_margin">86dp</dimen>
+    <dimen name="leadicons_marginbottom">120dip</dimen>
+    <dimen name="leadicon_width">50dip</dimen>
+    <dimen name="leadicon_height">25dip</dimen>
+    <dimen name="leadicon_margin">25dip</dimen>
+    <dimen name="leadskip_marginright">90dip</dimen>
+    <dimen name="leadskip_margintop">90dip</dimen>
+    <dimen name="app_listitem_horizontal_margin">86dp</dimen>
+    <dimen name="text_bar_title">30dp</dimen>
+</resources>
+
+
+
