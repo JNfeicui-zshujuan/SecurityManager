@@ -21,7 +21,8 @@ public class sjfd_setup4 extends BaseSetupButton {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.sjfd_setup4);
-        LocationManager lm = (LocationManager) getSystemService(LOCATION_SERVICE);
+        //定位管理器
+
 
         List<String> allProviders=lm.getAllProviders();
         for (String allProvider:allProviders){
@@ -48,6 +49,8 @@ public class sjfd_setup4 extends BaseSetupButton {
 
 
             }
+            LocationManager lm = (LocationManager) getSystemService(LOCATION_SERVICE);
+
 
 
             @Override
